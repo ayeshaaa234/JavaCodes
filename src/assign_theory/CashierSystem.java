@@ -6,7 +6,6 @@ public class CashierSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Cart cart = new Cart();
-
         for (Item item : Item.values()) {
             System.out.println("\nAvailable Items:");
             System.out.println(item + " - Price: $" + Store.getPrice(item) + ", Stock: " + Store.getStock(item));
