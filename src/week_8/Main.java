@@ -9,7 +9,7 @@ public class Main {
          System.out.println("welcome to system");
          int a;
         int b;
-//         int[] arr={1,2,3,4};
+       // int[] arr={1,2,3,4};
          Scanner scanner=new Scanner(System.in);
          try{
               a = scanner.nextInt();

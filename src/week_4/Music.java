@@ -73,11 +73,11 @@ public class Music {
             return true;
     }
 
-    //    public Object clone(){
+       // public Music clone(){
 //
-//        return new Music(this.getDuration(),this.getSinger(),this.getReleasedate(),this.getGenre().this.getTitle());
+       // return new Music(this.getDuration(),this.getSinger(),this.getReleasedate(),this.getGenre().this.getTitle());
 //
-//    }
+  //  }
     @Override
     public String toString() {
         return "Music{" +
